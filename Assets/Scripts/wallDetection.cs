@@ -17,14 +17,14 @@ public class wallDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Ray ray = new Ray(transform.position, Vector3.right);
-        Debug.DrawRay(transform.position, Vector3.right, Color.red);
+        Ray ray = new Ray(transform.position, p_movement._targetDiection);
+        Debug.DrawRay(transform.position, p_movement._targetDiection, Color.red);
 
         if(Physics.Raycast(ray, out hit, 1f))
         {
             if(hit.collider.tag == "pared")
             {
-                p_movement.isMoving = false;
+                p_movement._isMoving = false;
             }
         }
     }

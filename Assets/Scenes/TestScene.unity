@@ -198,11 +198,46 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6374670204642732437, guid: 58f99ac14d4a2724d929f203a3a1d43c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6374670204642732437, guid: 58f99ac14d4a2724d929f203a3a1d43c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6374670204642732437, guid: 58f99ac14d4a2724d929f203a3a1d43c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6374670204642732437, guid: 58f99ac14d4a2724d929f203a3a1d43c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6374670204642732437, guid: 58f99ac14d4a2724d929f203a3a1d43c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6374670204642732437, guid: 58f99ac14d4a2724d929f203a3a1d43c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7466317659541384027, guid: 58f99ac14d4a2724d929f203a3a1d43c,
         type: 3}
       propertyPath: movementSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7466317659541384027, guid: 58f99ac14d4a2724d929f203a3a1d43c,
+        type: 3}
+      propertyPath: _targetObject
+      value: 
+      objectReference: {fileID: 2039476314}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58f99ac14d4a2724d929f203a3a1d43c, type: 3}
 --- !u!1 &200980698
@@ -973,3 +1008,9 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009025988}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2039476314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6637959398223562316, guid: 58f99ac14d4a2724d929f203a3a1d43c,
+    type: 3}
+  m_PrefabInstance: {fileID: 90458659}
+  m_PrefabAsset: {fileID: 0}
